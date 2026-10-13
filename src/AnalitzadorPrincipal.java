@@ -27,9 +27,7 @@ public class AnalitzadorPrincipal {
                         + "2026-09-30 WARNING Memoria baixa 2\n"
                         + "2026-09-30 INFO Connexio establerta\n"
                         + "2026-09-30 WARNING Memoria baixa 3\n"
-                        + "2026-09-30 ERROR Fallada 3\n"
-                        + "2026-09-30 WARNING Memoria baixa 4\n"
-                        + "2026-09-30 WARNING Memoria baixa 5\n";
+                        + "2026-09-30 ERROR Fallada 3\n";
 
             // envia a primer fill
             BufferedWriter sortidaCapAlFillError = new BufferedWriter(new OutputStreamWriter(procesError.getOutputStream()));
